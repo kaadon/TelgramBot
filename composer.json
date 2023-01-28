@@ -1,0 +1,31 @@
+{
+    "name": "kaadon/telgrambot",
+    "type": "library",
+    "description": "Kaadon telgramBot for PHP",
+    "keywords": ["telgramBot","telgram","Bot"],
+    "homepage": "http://developer.kaadon.com/",
+    "license": "MIT",
+    "require": {
+        "PHP": ">=8.0",
+        "irazasyed/telegram-bot-sdk": "^3.9"
+    },
+    "authors": [
+        {
+            "name": "Kaadon",
+            "email": "kaadon.com@gmail.com",
+            "homepage": "https://kaadon.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kaadon\\TelgramBot\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kaadon\\TelgramBot\\Test\\": "tests"
+        }
+    },
+    "extra": {
+    }
+}
